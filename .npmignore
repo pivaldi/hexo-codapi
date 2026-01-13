@@ -1,0 +1,22 @@
+# Test files
+test/
+
+# CI/CD
+.github/
+.changeset/
+
+# Development files
+*.spec.js
+*.test.js
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+TODO.md
+CHANGELOG.md

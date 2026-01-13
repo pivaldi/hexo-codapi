@@ -1,0 +1,52 @@
+{
+    "name": "hexo-codapi",
+    "version": "0.1.0",
+    "description": "Embed Codapi executable snippets in Hexo with per-page asset injection.",
+    "main": "index.js",
+    "author": "Philippe IVALDI",
+    "license": "MIT",
+    "keywords": [
+        "hexo",
+        "hexo-plugin",
+        "codapi",
+        "code-runner",
+        "snippet",
+        "static-site-generator",
+        "blog"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pivaldi/hexo-codapi.git"
+    },
+    "homepage": "https://github.com/pivaldi/hexo-codapi#readme",
+    "bugs": {
+        "url": "https://github.com/pivaldi/hexo-codapi/issues"
+    },
+    "files": ["index.js", "README.md", "LICENSE"],
+    "dependencies": {
+        "hexo-util": "^3.0.0"
+    },
+    "peerDependencies": {
+        "hexo": ">=5.0.0"
+    },
+    "publishConfig": { "access": "public" },
+    "devDependencies": {
+        "@changesets/cli": "^2.27.0",
+        "chai": "^4.4.1",
+        "hexo": "^6.3.0",
+        "hexo-generator-archive": "^2.0.0",
+        "hexo-generator-category": "^2.0.0",
+        "hexo-generator-index": "^4.0.0",
+        "hexo-generator-tag": "^2.0.0",
+        "hexo-renderer-ejs": "^2.0.0",
+        "hexo-renderer-marked": "^6.0.0",
+        "hexo-test-utils": "^0.6.0",
+        "mocha": "^10.0.0"
+    },
+    "scripts": {
+        "test": "mocha \"test/**/*.spec.js\"",
+        "changeset": "changeset",
+        "version-packages": "changeset version",
+        "release": "changeset publish"
+    }
+}

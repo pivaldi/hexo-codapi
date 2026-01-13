@@ -1,0 +1,5 @@
+title: Test
+url: http://example.com
+root: /
+permalink: :title/
+theme: test
